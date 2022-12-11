@@ -3,6 +3,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
@@ -13,8 +14,8 @@ nav {
 }
 
 #logo {
-    margin: 10px;
-    padding: 0PX 15px;
+    margin: 20px;
+    padding: 15PX 15px;
 }
 
 #burguer {
@@ -36,7 +37,6 @@ ul#itens {
 #menu {
     display: flex;
     align-items: center;
-    background-color: red;
 }
 
 nav > div >  ul > li > a {

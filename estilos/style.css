@@ -14,23 +14,28 @@ nav {
 }
 
 #logo {
-    margin: 20px;
-    padding: 15PX 15px;
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    padding: 35px;
 }
 
 #burguer {
     display: block;
     text-align: center;
     cursor: pointer;
-    margin: 15px;
+    margin-top: 50px;
+    margin-right: 40px;
     margin-left: auto;
 }
 
 ul#itens {
     display: none;
+    text-align: right;
+    font-weight: bold;
     list-style-type: none;
-    text-align: center;
     width: 100vw;
+
     margin: auto;
 }
 
@@ -43,6 +48,6 @@ nav > div >  ul > li > a {
     display: block;
     text-align: center;
     text-decoration: none;
-    color: #000000;
+    color: #38bdf2;
     padding: 10px;
 }

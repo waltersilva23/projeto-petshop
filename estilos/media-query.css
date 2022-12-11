@@ -16,6 +16,7 @@
     ul#itens {
         display: block;
         width: 80vw;
+        padding-right: 45px;
     }
 
     div > ul > li {

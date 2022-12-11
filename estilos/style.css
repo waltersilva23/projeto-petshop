@@ -30,6 +30,7 @@ ul#itens {
     list-style-type: none;
     text-align: center;
     width: 100vw;
+    margin: auto;
 }
 
 #menu {

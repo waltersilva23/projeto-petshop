@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#logo {
+    margin: 10px;
+    padding: 0PX 15px;
+}
+
+#burguer {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    margin: 15px;
+    margin-left: auto;
+}
+
+ul#itens {
+    display: none;
+    list-style-type: none;
+    text-align: center;
+    width: 90vw;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    background-color: red;
+}
+
+nav > div >  ul > li > a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+}

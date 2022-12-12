@@ -43,18 +43,17 @@ nav {
 
 ul#itens {
     display: none;
-    text-align: center;
+    text-align: right;
     font-weight: bold;
     list-style-type: none;
-    width: 100vw;
-    margin: auto;
+    width: 96.5vw;
+    margin: auto;background-color: red;
 }
 
 #menu {
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 96.5vw;
+    
 }
 
 nav > div >  ul > li > a {

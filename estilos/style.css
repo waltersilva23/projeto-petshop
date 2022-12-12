@@ -6,11 +6,11 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
-
+/*
 body {
     overflow-x: hidden;
 }
-
+*/
 /*Header*/
 
 header {
@@ -74,9 +74,7 @@ nav > div >  ul > li > a:hover {
     position: relative;
     background-image: url("../imagens/Fundo1Home.png");
     background-size: cover;
-    background-position: center center;
-    width: 100vw;
-    height: 100vh;
+    background-position: fixed; 
 }
 
 .imagem1 {
@@ -93,6 +91,7 @@ nav > div >  ul > li > a:hover {
 .texto1 {
     color: #fff;
     text-align: justify;
+    padding-bottom: 30px;
 }
 
 .texto1 > h1 {
@@ -107,6 +106,24 @@ nav > div >  ul > li > a:hover {
     padding: 15px;
     width: 80vw;
 }
+
+.imagem2 {
+    width: 100vw;
+    padding: 20px;
+}
+
+.imagem2 > img {
+    width: 250px;
+    height: 250px;
+}
+
+.imagem2 {
+    text-align: center;
+    color: #38bdf2;
+    font-weight: bold;
+}
+
+
 
 /*Footer*/
 

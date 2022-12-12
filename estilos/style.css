@@ -70,9 +70,46 @@ nav > div >  ul > li > a:hover {
 
 /* Main*/
 
- main {
+ section#fundo {
     position: relative;
     background-image: url("../imagens/Fundo1Home.png");
+    background-size: cover;
+    background-position: center center;
     width: 100vw;
     height: 100vh;
+}
+
+.imagem1 {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.imagem1 > img {
+    width: 280px;
+    height: 245px;
+}
+
+.texto1 {
+    color: #fff;
+    text-align: justify;
+}
+
+.texto1 > h1 {
+    font-size: 2em;;
+    text-align: center;
+}
+
+.texto1 > p {
+    font-size: 1.2em;
+    text-align: justify;
+    margin-left: 8%;
+    padding: 15px;
+    width: 80vw;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #f2f2f2;
 }

@@ -5,6 +5,7 @@
     ul#itens {
         width: 100vw;
     }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -22,5 +23,9 @@
     div > ul > li {
         display: inline-block;
     }
-
+    
+    .imagem1 > img {
+        width: 420px;
+        height: 367px;
+    }
 }

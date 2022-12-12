@@ -52,6 +52,7 @@ ul#itens {
 #menu {
     display: flex;
     align-items: center;
+    width: 96.5vw;
 }
 
 nav > div >  ul > li > a {
@@ -107,9 +108,12 @@ nav > div >  ul > li > a:hover {
     width: 80vw;
 }
 
-.imagem2 {
-    width: 100vw;
+.imagem2, .imagem3, .imagem4 {
+    width: 96.5vw;
     padding: 20px;
+    text-align: center;
+    color: #38bdf2;
+    font-weight: bold;
 }
 
 .imagem2 > img {
@@ -117,16 +121,32 @@ nav > div >  ul > li > a:hover {
     height: 250px;
 }
 
-.imagem2 {
-    text-align: center;
-    color: #38bdf2;
-    font-weight: bold;
+.imagem3 > img {
+    width: 250px;
+    height: 250px;
 }
 
+.imagem4 > img {
+    width: 250px;
+    height: 250px;
+}
+
+section#servicos {
+    margin: 50px 0px 50px 0px
+}
 
 
 /*Footer*/
 
 footer {
     background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.rodape1, .rodape2, .rodape3 {
+    text-align: center;
+    padding: 20px;
+    color: #38bdf2;
 }

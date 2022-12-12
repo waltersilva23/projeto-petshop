@@ -7,6 +7,16 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
+/*Header*/
+
+header {
+    background-color: #fff;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -50,9 +60,19 @@ nav > div >  ul > li > a {
     text-decoration: none;
     color: #38bdf2;
     padding: 10px;
+    border-radius: 10px;
 }
 
 nav > div >  ul > li > a:hover {
     background-color: #aedff2;
     color: #fff
+}
+
+/* Main*/
+
+ main {
+    position: relative;
+    background-image: url("../imagens/Fundo1Home.png");
+    width: 100vw;
+    height: 100vh;
 }

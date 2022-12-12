@@ -23,6 +23,7 @@ nav {
 #burguer {
     display: block;
     text-align: center;
+    color: #38bdf2;
     cursor: pointer;
     margin-top: 50px;
     margin-right: 40px;
@@ -35,7 +36,6 @@ ul#itens {
     font-weight: bold;
     list-style-type: none;
     width: 100vw;
-
     margin: auto;
 }
 
@@ -50,4 +50,9 @@ nav > div >  ul > li > a {
     text-decoration: none;
     color: #38bdf2;
     padding: 10px;
+}
+
+nav > div >  ul > li > a:hover {
+    background-color: #aedff2;
+    color: #fff
 }

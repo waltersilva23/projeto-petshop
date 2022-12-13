@@ -8,7 +8,59 @@
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    #burguer {
+        display: none;
+    }
+
+    ul#itens {
+        display: block;
+        width: 75vw;
+        padding-right: 46px;
+    }
+
+    div > ul > li {
+        display: inline-block;
+    }
+
+    #fundo {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+
+    .imagem1 {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        padding-top: 80px;
+    }
+    
+    .imagem1 > img {
+        width: 420px;
+        height: 367px;
+    }
+
+    .texto1 {
+        padding-top: 100px;
+    }
+
+    .texto1 > h1 {
+        display: flex;
+        justify-content: right;
+        font-size: 2.3em;
+    }
+
+    .texto1 > p {
+        font-size: 1.5em;
+        padding-right: 35px;
+        width: 35vw;
+    }   
+
+}
+
+@media screen and (min-width: 1025px) {
     
     #burguer {
         display: none;

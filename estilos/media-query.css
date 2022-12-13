@@ -56,7 +56,12 @@
         font-size: 1.5em;
         padding-right: 35px;
         width: 35vw;
-    }   
+    }
+
+    #servicos {
+        display: flex;
+        justify-content: space-between;
+    }
 
 }
 
@@ -95,6 +100,7 @@
 
     .texto1 {
         padding-top: 100px;
+        background-color: red;
     }
 
     .texto1 > h1 {

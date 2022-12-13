@@ -148,6 +148,7 @@ footer {
 
 .rodape1, .rodape2, .rodape3 {
     text-align: center;
+    line-height: 28px;
     padding: 20px;
     color: #38bdf2;
 }

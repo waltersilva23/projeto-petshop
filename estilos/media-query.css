@@ -32,7 +32,7 @@
 
     .imagem1 {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         padding: 10px;
         padding-top: 80px;
     }
@@ -48,8 +48,9 @@
 
     .texto1 > h1 {
         display: flex;
-        justify-content: right;
-        font-size: 2.3em;
+        justify-content: center;
+        font-size: 2.1em;
+        padding-left: 15px;
     }
 
     .texto1 > p {
@@ -60,7 +61,9 @@
 
     #servicos {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
+        align-items: center;
     }
 
 }
@@ -94,22 +97,29 @@
     }
     
     .imagem1 > img {
-        width: 420px;
-        height: 367px;
+        width: 560px;
+        height: 490px;
     }
 
     .texto1 {
         padding-top: 100px;
-        background-color: red;
     }
 
     .texto1 > h1 {
-        font-size: 3em;
+        font-size: 2.8em;
     }
 
     .texto1 > p {
         font-size: 2em;
+        padding-right: 50px;
         width: 35vw;
+    }
+
+    #servicos {
+        display: flex;  
+        justify-content: space-between;
+        align-items: center;
+        background-color: red;
     }
 }
 

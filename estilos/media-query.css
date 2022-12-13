@@ -23,9 +23,36 @@
     div > ul > li {
         display: inline-block;
     }
+
+    #fundo {
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+    }
+
+    .imagem1 {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
     
     .imagem1 > img {
-        width: 420px;
-        height: 367px;
+        width: 560px;
+        height: 490px;
+    }
+
+    .texto1 {
+        padding-top: 100px;
+    }
+
+    .texto1 > h1 {
+        font-size: 3em;
+    }
+
+    .texto1 > p {
+        font-size: 2em;
+        width: 35vw;
     }
 }
+
+/*1024px*/

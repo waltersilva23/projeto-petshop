@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.banner {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 0;
+    padding-top: 130px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../imagens/background_page.png)
+}
+.banner h1 {
+    color: #fff;
+    font-size: 47px;
+    font-weight: 500;
+    line-height: 10px;
+    padding-bottom: 30px;
+    letter-spacing: -2px;
+    text-transform: capitalize;
+    margin-left: 35px;
+}

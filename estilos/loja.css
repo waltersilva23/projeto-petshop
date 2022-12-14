@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 *{
     margin: 0px;
     padding: 0px;
@@ -23,3 +25,118 @@
     text-transform: capitalize;
     margin-left: 35px;
 }
+
+.vitrine{
+
+    color: #38bdf2;
+    font-size: 47px;
+    font-weight: 500;
+    line-height: 10px;
+    padding-bottom: 30px;
+    letter-spacing: -2px;
+    text-transform: capitalize;
+    margin-left: 35px;
+    margin-top: 5%;
+
+}
+
+ul {
+    padding: 20px;
+    margin: 20px;
+  
+    li {
+      list-style: none;
+    }
+  }
+
+  .produto-lista {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1300px;
+    width: 100%;
+    @media (max-width: 991px){
+    flex-wrap: wrap;
+    }
+  }
+
+  .product-item {
+    border: 1px solid $border;
+    cursor: pointer;
+    margin: 15px 5px;
+    max-width: 300px;
+    transition: .2s;
+    width: 100%;
+    }
+
+
+    .product-info {
+        margin: 5;
+        padding: 0;
+        position: relative;
+        width: 100%;
+        }
+
+        .product-info-img {
+            border-bottom: 2px solid $border;
+            height: 230px;
+            width: 100%;
+            // center image
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            img {
+              max-width: 150px;
+            }
+          } 
+
+          .product-info-descricao {
+            padding: 20px;
+            .title {
+              font-size: 13px;
+              margin: 0;
+              padding: 0;
+            }
+            .description {
+              height: 30px;
+              margin: 3px 0;
+        
+              //limit caracteres text description
+
+              -webkit-box-orient: vertical;
+              -webkit-line-clamp: 2;
+              display: -webkit-box;
+              overflow: hidden;
+        
+            }
+          }
+         
+          .price-box {
+            align-items: center;
+            border-top: 1px solid $border;
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            
+          }
+
+          .btn-buy {
+            background: blue;
+            border: 0;
+            color: #fff;
+            cursor: pointer;
+            padding: 10px 15px;
+            text-decoration: none;
+            transition: .2s;
+            .fas {
+              margin-left: 3px;
+            }
+            &:hover {
+              background: #38bdf2;
+            }
+          }
+          
+          .d-block {
+            display: block;
+          }

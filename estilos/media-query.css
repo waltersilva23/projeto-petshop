@@ -66,6 +66,10 @@
         align-items: center;
     }
 
+    .foto-quem {
+        flex-wrap: wrap;
+    }   
+
 }
 
 @media screen and (min-width: 1025px) {
@@ -144,6 +148,11 @@
         justify-content: space-around;
         align-items: center;
         
+    }
+
+    .foto-quem {
+        align-items: center;
+        padding: 20px;
     }
 }
 

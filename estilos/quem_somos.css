@@ -12,16 +12,6 @@ body {
 }
 
 /* Main*/
-.foto-quem {
-    display: flex;
-    justify-content: center;
-    padding: 40px;
-}
-
-.foto-quem > img {
-    width: 320px;
-    height: 190.5;
-}
 
 .text {
     color: #ffffff;

@@ -8,7 +8,67 @@
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    #burguer {
+        display: none;
+    }
+
+    ul#itens {
+        display: block;
+        width: 75vw;
+        padding-right: 46px;
+    }
+
+    div > ul > li {
+        display: inline-block;
+    }
+
+    #fundo {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+
+    .imagem1 {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        padding-top: 80px;
+    }
+    
+    .imagem1 > img {
+        width: 420px;
+        height: 367px;
+    }
+
+    .texto1 {
+        padding-top: 100px;
+    }
+
+    .texto1 > h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 2.1em;
+        padding-left: 15px;
+    }
+
+    .texto1 > p {
+        font-size: 1.5em;
+        padding-right: 35px;
+        width: 35vw;
+    }
+
+    #servicos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+@media screen and (min-width: 1025px) {
     
     #burguer {
         display: none;
@@ -37,8 +97,8 @@
     }
     
     .imagem1 > img {
-        width: 420px;
-        height: 367px;
+        width: 560px;
+        height: 490px;
     }
 
     .texto1 {
@@ -46,12 +106,44 @@
     }
 
     .texto1 > h1 {
-        font-size: 3em;
+        font-size: 2.8em;
     }
 
     .texto1 > p {
         font-size: 2em;
+        padding-right: 50px;
         width: 35vw;
+    }
+
+    #servicos {
+        display: flex;  
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .imagem2 > img {
+        width: 300px;
+        height: 300px;
+    }
+    .imagem3 > img {
+        width: 300px;
+        height: 300px;
+    }
+    .imagem4 > img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .imagem2, .imagem3, .imagem4 {
+        font-size: 20px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        
     }
 }
 

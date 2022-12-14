@@ -4,21 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Pet Life - Loja</title>
+    <title>Pet Life</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
-    <link rel="stylesheet" href="estilos/media-query.css">
+    <link rel="stylesheet" href="estilos/midia-query.css">
     <link rel="stylesheet" href="estilos/loja.css">
-    <link rel="stylesheet" href="estilos/vitrine_loja.css">
     <script src="js/hamburguer.js"></script>
 </head>
-
-    <!--body start-->
-<body onresize="telaGrande()">
+<body>
     <header>
-        <!--nav-->
         <nav >
             <img src="imagens/logo1.png" alt="logo" id="logo">
             <span id="burguer" class="material-icons" onclick=clickMenu()>menu</span>
@@ -34,232 +29,99 @@
         </nav>
     </header>
 
-    <main>
-        <!-- banner -->
-        <div class="banner">
-            <div class="container">
-                <div>
-                    <h1>LOJA</h1>
-                </div>
+    <div class="banner">
+        <div class="container">
+            <div>
+                <h1>LOJA</h1>
             </div>
         </div>
+    </div>  <!-- banner -->
 
-                <h2 class="vitrine">Ração</h2>
-            <ul class="produto-lista">
-                <li class="product-item" id="product-item">
-                    <a href="#" target="_blank" class="product-link">
-                        <figure class="product-info">
-                            <div class="product-info-img">
-                                <img src="imagens/loja/1.jpg" alt="description image">
-                            </div>
-                            <figcaption class="product-info-descricao">
-                                <h2 class="title">Ração Max</h2>
-                                <p class="description">Ração max aduto exelente produto</p>
-                            </figcaption>
-                            <div class="price-box">
-                                <div class="price">
-                                    <div>
-                                        <del>R$55,00</del>
-                                        <ins class="d-block">R$45,00</ins>
-                                    </div>
-                                    <span class="price-info">4x de R$ 15,00</span>
-                                </div>
-                                <button href="#" class="btn btn-buy">Comprar <i class="fas fa-arrow-right"></i></button>
-                            </div>
-                            </div>
-                        </figure>
-                    </a>
-                </li>
-                <li class="product-item">
-                    <a href="#" target="_blank" class="product-link">
-                        <figure class="product-info">
-                            <div class="product-info-img">
-                                <img src="imagens/loja/2.jpg" alt="description image">
-                            </div>
-                            <figcaption class="product-info-description">
-                                <h2 class="title">Gran Plus Gourmet</h2>
-                                <p class="description">sem tragenico, sabor ovelha rção umida ideal para hidratar seu amigo.</p>
-                                
-                            </figcaption>
-                            <div class="price-box">
-                                <div class="price">
-                                    <div>
-                                        <del>R$3,00</del>
-                                        <ins class="d-block">R$2,89</ins>
-                                    </div>
-                                    <span class="price-info">1x de R$ 3,00</span>
-                                </div>
-                                <button href="#" class="btn btn-buy">Comprar <i class="fas fa-arrow-right"></i></button>
-                            </div>
-                            </div>
-                        </figure>
-                    </a>
-                </li>
-                <li class="product-item">
-                    <a href="#" target="_blank" class="product-link">
-                        <figure class="product-info">
-                            <div class="product-info-img">
-                                <img src="imagens/loja/3.webp" alt="description image">
-                            </div>
-                            <figcaption class="product-info-description">
-                                <h2 class="title">Pedrigree Filhotes
-                                </h2>
-                                <p class="description">Ração Pedrigree sabor carne, frango e 
-                            </figcaption>
-                            <div class="price-box">
-                                <div class="price">
-                                    <div>
-                                        <del>R$200,00</del>
-                                        <ins class="d-block">R$180,00</ins>
-                                    </div>
-                                    <span class="price-info">4x de R$ 50,00</span>
-                                </div>
-                                <button href="#" class="btn btn-buy">Comprar <i class="fas fa-arrow-right"></i></button>
-                            </div>
-                            </div>
-                        </figure>
-                    </a>
-                </li>
-                <li class="product-item">
-                    <a href="#" target="_blank" class="product-link">
-                        <figure class="product-info">
-                            <div class="product-info-img">
-                                <img src="imagens/loja/4.webp" alt="description image">
-                            </div>
-                            <figcaption class="product-info-description">
-                                <h2 class="title">Ração Golden</h2>
-                                <p class="description">Ração golden formula premium sabor frango e Arroz</p>
-                                
-                            </figcaption>
-                            <div class="price-box">
-                                <div class="price">
-                                    <div>
-                                        <del>R$189,00</del>
-                                        <ins class="d-block">R$159,00</ins>
-                                    </div>
-                                    <span class="price-info">4x de R$ 47,25</span>
-                                </div>
-                                <button href="#" class="btn btn-buy">Comprar <i class="fas fa-arrow-right"></i></button>
-                            </div>
-                            </div>
-                        </figure>
-                    </a>
-                </li>
+    <section class="cta">
+        <div class="text-cta">
+            <h4>Black Week<br></h4>
+            <a href="#" class="btn">Compre agora</a>
+        </div><!--text-cta-->
+    </section><!--cta-->
 
-            </ul>
+    <section>
 
-            <ul class="produto-lista">
-                <li class="product-item">
-                    <a href="#" target="_blank" class="product-link">
-                        <figure class="product-info">
-                            <div class="product-info-img">
-                                <img src="imagens/loja/5.jpg" alt="description image">
-                            </div>
-                            <figcaption class="product-info-descricao">
-                                <h2 class="title">Nutrilus  PRo</h2>
-                                <p class="description">Ração frango e carne Adulto</p>
-                            </figcaption>
-                            <div class="price-box">
-                                <div class="price">
-                                    <div>
-                                        <del>R$55,00</del>
-                                        <ins class="d-block">R$45,00</ins>
-                                    </div>
-                                    <span class="price-info">4x de R$ 15,00</span>
-                                </div>
-                                <button href="#" class="btn btn-buy">Comprar <i class="fas fa-arrow-right"></i></button>
-                            </div>
-                            </div>
-                        </figure>
-                    </a>
-                </li>
-                <li class="product-item">
-                    <a href="#" target="_blank" class="product-link">
-                        <figure class="product-info">
-                            <div class="product-info-img">
-                                <img src="imagens/loja/6.jpg" alt="description image">
-                            </div>
-                            <figcaption class="product-info-description">
-                                <h2 class="title">Optimum</h2>
-                                <p class="description">Ração seca para Cachorro raça pequenas</p>
-                                
-                            </figcaption>
-                            <div class="price-box">
-                                <div class="price">
-                                    <div>
-                                        <del>R$169,00</del>
-                                        <ins class="d-block">R$149,90</ins>
-                                    </div>
-                                    <span class="price-info">4x de R$ 42,25</span>
-                                </div>
-                                <button href="#" class="btn btn-buy">Comprar <i class="fas fa-arrow-right"></i></button>
-                            </div>
-                            </div>
-                        </figure>
-                    </a>
-                </li>
-                <li class="product-item">
-                    <a href="#" target="_blank" class="product-link">
-                        <figure class="product-info">
-                            <div class="product-info-img">
-                                <img src="imagens/loja/7.webp" alt="description image">
-                            </div>
-                            <figcaption class="product-info-description">
-                                <h2 class="title">Pedigree Sachê
-                                </h2>
-                                <p class="description">Ração ideal para hidratar seu pet. Sachêsabor Cordeiro.
-                            </figcaption>
-                            <div class="price-box">
-                                <div class="price">
-                                    <div>
-                                        <del>R$3,00</del>
-                                        <ins class="d-block">R$2,50</ins>
-                                    </div>
-                                    <span class="price-info">1x de R$ 3,00</span>
-                                </div>
-                                <button href="#" class="btn btn-buy">Comprar <i class="fas fa-arrow-right"></i></button>
-                            </div>
-                            </div>
-                        </figure>
-                    </a>
-                </li>
-                <li class="product-item">
-                    <a href="#" target="_blank" class="product-link">
-                        <figure class="product-info">
-                            <div class="product-info-img">
-                                <img src="imagens/loja/8.webp" alt="description image">
-                            </div>
-                            <figcaption class="product-info-description">
-                                <h2 class="title">Pedigree Sachê</h2>
-                                <p class="description">Ração ideal para hidratar seu pet. Sachê - Sabor carne.</p>
-                                
-                            </figcaption>
-                            <div class="price-box">
-                                <div class="price">
-                                    <div>
-                                        <del>R$3,00</del>
-                                        <ins class="d-block">R$2,50</ins>
-                                    </div>
-                                    <span class="price-info">1x de R$ 3,00</span>
-                                </div>
-                                <button href="#" class="btn btn-buy">Comprar <i class="fas fa-arrow-right"></i></button>
-                            </div>
-                            </div>
-                        </figure>
-                    </a>
-                </li>
-
-            </ul>
-
-        
+        <div class="Container-r">
+            <div class="r">
+                <img src="imagens/loja/1.jpg" alt="">
+                <h3>Max Adulto</h3>
+                <p>Ração seca</p> <P>Sabor: Carne</p>
+                <h5>R$ 55,00</h5>
+                <ion-icon name="cart-outline"></ion-icon>
+                <button href="#" class="btn btn-buy">Comprar <i class="fas fa-arrow-right"></i></button>
+            </div><!--card raçoes-->
 
 
+            <div class="r">
+                <img src="imagens/loja/2.jpg" alt="">
+                <h3>Gran Plus</h3>
+                <p>Sachê Gran Plas Gourmet</p> <p>Sabor: Overlha</p>
+                <h5>R$ 3,00</h5>
+                <span><ion-icon name="cart-outline"></ion-icon></span>
+                <button href="#" class="btn btn-buy">Comprar <i class="fas fa-arrow-right"></i></button>
+            </div><!--card Raçoes-->
 
-    
-    </main>
+            <div class="r">
+                <img src="imagens/loja/3.webp" alt="">
+                <h3>Pedigree</h3>
+                <p>Ração seca Filhotes</p> <p>Sabor: Carne, Frango e Cereais</p>
+                <h5>R$ 3,00</h5>
+                <ion-icon name="cart-outline"></ion-icon>
+                <button href="#" class="btn btn-buy">Comprar <i class="fas fa-arrow-right"></i></button>
+            </div><!--card Raçoes-->
 
-        
-        
+            <div class="r">
+                <img src="imagens/loja/4.webp" alt="">
+                <h3>Golden Formula</h3>
+                <p>Ração nutritiva </p> <p>Sabor: Frango e Arroz</p>
+                <h5>R$ 109,00</h5>
+                <ion-icon name="cart-outline"></ion-icon>
+                <button href="#" class="btn btn-buy">Comprar <i class="fas fa-arrow-right"></i></button>
+            </div><!--card Raçoes-->
+
+            <div class="r">
+                <img src="imagens/loja/5.jpg" alt="">
+                <h3>Nultrilus</h3>
+                <p>ração Nutrilus PRO </p> <p>Sabor: Frango e Carne</p>
+                <h5>R$ 149,90</h5>
+                <ion-icon name="cart-outline"></ion-icon>
+                <button href="#" class="btn btn-buy">Comprar <i class="fas fa-arrow-right"></i></button>
+            </div><!--card Raçoes-->
+
+            <div class="r">
+                <img src="imagens/loja/6.jpg" alt="">
+                <h3>Optimum</h3>
+                <p>Ração Adulto Raças Pequenas</p> <p>Sabor: Frango e Arroz</p>
+                <h5>R$ 199,00</h5>
+                <ion-icon name="cart-outline"></ion-icon>
+                <button href="#" class="btn btn-buy">Comprar <i class="fas fa-arrow-right"></i></button>
+            </div><!--card Raçoes-->
+
+            <div class="r">
+                <img src="imagens/loja/7.webp" alt="">
+                <h3>Pedigree</h3>
+                <p>Sachê raças pequenas</p> <p>Sabor: Cordeiro</p>
+                <h5>R$ 2,50</h5><ion-icon name="cart-outline"></ion-icon>
+                <button href="#" class="btn btn-buy">Comprar <i class="fas fa-arrow-right"></i></button>
+            </div><!--card Raçoes-->
+
+            <div class="r">
+                <img src="imagens/loja/8.webp" alt="">
+                <h3>Pedigree</h3>
+                <p>Sachê raças pequenas</p> <p>Sabor: Carne</p>
+                <h5>R$ 3,00</h5><ion-icon name="cart-outline"></ion-icon>
+                <button href="#" class="btn btn-buy">Comprar <i class="fas fa-arrow-right"></i></button>
+            </div><!--card Raçoes-->
+            
+        </div><!--container-raçoes-->
+    </section>
+
+
     <footer>
         <div class="rodape1">
             <p>Horários</p>
@@ -278,6 +140,11 @@
             <a href="em_contrução.html" target="_blank"><img src="imagens/logo-facebook.jpg" alt="Facebook"></a>
             <a href="em_contrução.html" target="_blank"><img src="imagens/logo-twitter.jpg" alt="Twitter"></a>
         </div>
+    </footer><!--Footer-->
+
+    <div class="last-text">
+        <p>Copyright © 2022 All rights reserved | This template is made by Vandilma, Walter , Vander e Magno</p>
+    </div>
     </footer>
 </body>
-</html>
+</html> 

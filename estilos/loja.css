@@ -1,11 +1,13 @@
-@charset "UTF-8";
-
 *{
-    margin: 0px;
-    padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    
 }
+
 .banner {
     width: 100%;
     height: 300px;
@@ -26,117 +28,104 @@
     margin-left: 35px;
 }
 
-.vitrine{
 
-    color: #38bdf2;
-    font-size: 47px;
-    font-weight: 500;
-    line-height: 10px;
-    padding-bottom: 30px;
-    letter-spacing: -2px;
-    text-transform: capitalize;
-    margin-left: 35px;
-    margin-top: 5%;
+section {
+    margin-top: 10%;
+    margin-block-end: 5%;
 
 }
 
-ul {
-    padding: 20px;
-    margin: 20px;
-  
-    li {
-      list-style: none;
-    }
-  }
-
-  .produto-lista {
-    align-items: center;
+.cta{
+    height: 20vh;
+    width: 100%;
     display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    max-width: 1300px;
-    width: 100%;
-    @media (max-width: 991px){
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.text-cta{
+    padding-left: 5rem;
+}
+
+.text-cta h6{
+    font-size: 17px;
+	font-weight: 500;
+	letter-spacing: .6px;
+	margin-bottom: 14px;
+
+}
+
+.text-cta h4{
+    font-size: 3.3rem;
+	line-height: 1.2;
+	letter-spacing: .6rem;
+	margin-bottom: 30px;
+}
+
+.text-cta a{
+    background-color: #38bdf2;
+    padding: 1rem 3rem 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+   font-size: 1rem;
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+.text-cta a:hover{
+    background-color: #111;
+      transform: scaleY(1.2);
+
+}
+
+.Container-r{
+    display: flex;
     flex-wrap: wrap;
-    }
-  }
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+    
+}
 
-  .product-item {
-    border: 1px solid $border;
+.Container-r img:hover{
+    transform: scale(0.9) translateY(-5px);
     cursor: pointer;
-    margin: 15px 5px;
-    max-width: 300px;
-    transition: .2s;
-    width: 100%;
-    }
+    transition: 0.3s;
+
+}
+
+.r img{
+    width: 250px;
+    height: auto;
+}
+
+.r{
+    background-color: #fff;
+    color: #000;
+    font-style: normal;
+}
+
+.btn-buy {
+    background: #38bdf2;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: .2s;}
+
+.btn-buy :hover{
+    background-color: #111;
+      transform: scaleY(1.2);
+
+}
 
 
-    .product-info {
-        margin: 5;
-        padding: 0;
-        position: relative;
-        width: 100%;
-        }
-
-        .product-info-img {
-            border-bottom: 2px solid $border;
-            height: 230px;
-            width: 100%;
-            // center image
-            align-items: center;
-            display: flex;
-            justify-content: center;
-            img {
-              max-width: 150px;
-            }
-          } 
-
-          .product-info-descricao {
-            padding: 20px;
-            .title {
-              font-size: 13px;
-              margin: 0;
-              padding: 0;
-            }
-            .description {
-              height: 30px;
-              margin: 3px 0;
-        
-              //limit caracteres text description
-
-              -webkit-box-orient: vertical;
-              -webkit-line-clamp: 2;
-              display: -webkit-box;
-              overflow: hidden;
-        
-            }
-          }
-         
-          .price-box {
-            align-items: center;
-            border-top: 1px solid $border;
-            display: flex;
-            justify-content: space-between;
-            padding: 15px;
-            
-          }
-
-          .btn-buy {
-            background: blue;
-            border: 0;
-            color: #fff;
-            cursor: pointer;
-            padding: 10px 15px;
-            text-decoration: none;
-            transition: .2s;
-            .fas {
-              margin-left: 3px;
-            }
-            &:hover {
-              background: #38bdf2;
-            }
-          }
-          
-          .d-block {
-            display: block;
-          }
+.last-text{
+    text-align: center;
+    background-color: #38bdf2;
+    color: #fff;
+}

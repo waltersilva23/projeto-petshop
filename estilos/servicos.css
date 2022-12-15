@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+main {
+    background-color: #38bdf2;
+}
+
+#servicos_cabecalho1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: #ffffff;
+    padding-top: 50px;
+}
+
+#servicos_cabecalho2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+.fotos_servicos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /*para versão mobile*/
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+
+.fotos_servicos > img {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+.texto_servicos {
+    display: none;  /*para desaparecer o texto*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+#p1 {
+    text-align: left;
+    margin-left: 170px;
+}
+
+#p2 {
+    text-align: center;
+    margin-top: -30px;
+}
+
+#p3 {
+    text-align: right;
+    margin-top: -30px;
+    margin-right: 125px;
+}
+
+#p4 {
+    text-align: left;
+    margin-left: 200px;
+}
+
+#p5 {
+    text-align: center;
+    margin-top: -30px;
+}
+
+#p6 {
+    text-align: right;
+    margin-top: -30px;
+    margin-right: 180px;
+}
+
+#p7 {
+    text-align: center;
+    margin-top: 0px;
+}

@@ -48,6 +48,7 @@ main {
     align-items: center;
     text-align: center;
     margin-top: 3rem;  
+    padding-bottom: 2%;
 }
 
 .fotos_servicos > h3 {
@@ -55,43 +56,7 @@ main {
 }
 
 section {
-    padding: 8%;
+    padding: 2%;
 }
 
-#p1 {
-    text-align: left;
-    margin-left: 170px;
-}
-
-#p2 {
-    text-align: center;
-    margin-top: -30px;
-}
-
-#p3 {
-    text-align: right;
-    margin-top: -30px;
-    margin-right: 125px;
-}
-
-#p4 {
-    text-align: left;
-    margin-left: 200px;
-}
-
-#p5 {
-    text-align: center;
-    margin-top: -30px;
-}
-
-#p6 {
-    text-align: right;
-    margin-top: -30px;
-    margin-right: 180px;
-}
-
-#p7 {
-    text-align: center;
-    margin-top: 0px;
-}
 

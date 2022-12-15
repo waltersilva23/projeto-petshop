@@ -17,6 +17,11 @@ main {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 44px;
     font-weight: bold;
+
+    color: #ffffff;
+}
+
+
     margin-bottom: 50px;
     color: #ffffff;
 }
@@ -30,10 +35,33 @@ main {
     margin-top: 50px;
 }
 
+
 .fotos_servicos > img {
     height: 250px;
     width: 250px;
     border-radius: 100%;
+
+    padding: auto;
+}
+
+.Container-r{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+    
+}
+
+.fotos_servicos > h3{
+    color: #ffffff;
+}
+section{
+    padding: 8%;
+}
+
 }
 
 .texto_servicos {
@@ -80,3 +108,4 @@ main {
     text-align: center;
     margin-top: 0px;
 }
+

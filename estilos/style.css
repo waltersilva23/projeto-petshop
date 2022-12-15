@@ -164,3 +164,9 @@ footer {
     transform: scale(0.9) translateY(-5px);
     transition: 0.3s;
 }
+
+.last-text{
+    text-align: center;
+    background-color: #38bdf2;
+    color: #fff;
+}

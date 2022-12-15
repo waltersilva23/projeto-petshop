@@ -19,7 +19,8 @@ main {
     font-weight: bold;
     color: #ffffff;
 }   
-}  /*não sei que bug é esse*/
+
+} /*não sei que bug é esse*/
 
 .fotos_servicos {
     display: flex;
@@ -55,14 +56,6 @@ main {
 
 section {
     padding: 8%;
-}
-
-.texto_servicos {
-    display: none;  /*para desaparecer o texto*/
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    margin-top: 10px;
-    color: #ffffff;
 }
 
 #p1 {

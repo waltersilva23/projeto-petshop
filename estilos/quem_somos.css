@@ -25,5 +25,5 @@ body {
 }
 
 .text > p {
-    text-indent: 4em;
+    line-height: 22px;
 }

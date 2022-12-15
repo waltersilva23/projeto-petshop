@@ -146,8 +146,12 @@
         
     }
 
-    .text {
-        font-size: 20px;
+    .text > h1 {
+        font-size: 2.5em;
+    }
+
+    .text > p {
+        font-size: 1.2em;
     }
 
 }

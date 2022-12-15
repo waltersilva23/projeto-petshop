@@ -17,14 +17,9 @@ main {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 44px;
     font-weight: bold;
-
     color: #ffffff;
-}
-
-
-    margin-bottom: 50px;
-    color: #ffffff;
-}
+}   
+}  /*não sei que bug é esse*/
 
 .fotos_servicos {
     display: flex;
@@ -40,28 +35,26 @@ main {
     height: 250px;
     width: 250px;
     border-radius: 100%;
-
+    border: 15px solid #ffffff;
     padding: auto;
 }
 
-.Container-r{
+.Container-r {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
     align-items: center;
     text-align: center;
-    margin-top: 3rem;
-    
+    margin-top: 3rem;  
 }
 
-.fotos_servicos > h3{
+.fotos_servicos > h3 {
     color: #ffffff;
 }
-section{
-    padding: 8%;
-}
 
+section {
+    padding: 8%;
 }
 
 .texto_servicos {

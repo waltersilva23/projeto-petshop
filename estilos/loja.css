@@ -4,8 +4,7 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
-    list-style: none;
-    
+    list-style: none;  
 }
 
 .banner {
@@ -17,6 +16,7 @@
     background-repeat: no-repeat;
     background-image: url(../imagens/background_page.png)
 }
+
 .banner h1 {
     color: #fff;
     font-size: 47px;
@@ -28,14 +28,13 @@
     margin-left: 35px;
 }
 
-
 section {
     margin-top: 10%;
     margin-block-end: 5%;
 
 }
 
-.cta{
+.cta {
     height: 20vh;
     width: 100%;
     display: flex;
@@ -52,7 +51,6 @@ section {
 	font-weight: 500;
 	letter-spacing: .6px;
 	margin-bottom: 14px;
-
 }
 
 .text-cta h4{
@@ -73,10 +71,9 @@ section {
    transition: 0.3s;
 }
 
-.text-cta a:hover{
+.text-cta a:hover {
     background-color: #111;
-      transform: scaleY(1.2);
-
+    transform: scaleY(1.2);
 }
 
 .Container-r{

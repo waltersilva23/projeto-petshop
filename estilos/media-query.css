@@ -145,6 +145,23 @@
         align-items: center;
         
     }
+
+    /*quem somos*/
+
+    .text > h1 {
+        font-size: 2.5em;
+    }
+
+    .text > p {
+        font-size: 1.2em;
+    }
+
+    /*serviços*/
+
+    .texto_servicos {
+        display: block;
+    }
+
 }
 
 /*1024px*/
